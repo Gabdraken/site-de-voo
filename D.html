@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Destinos</title>
+</head>
+<!--está é a parte (Destino) do site-->
+<body>
+<!--Aqui ficará o cabeçalho-->
+
+<!--Aqui esta a frase de cima-->
+<div class="card-img-overlay text-monospace">
+  <h1 class="card-title h-45">Sua Vida</h1>
+  <h1 class="card-text h-25">sempre a mil!</h1>
+</div>
+
+<!--Fim da frase-->
+
+<table> 
+    <tr>
+        <td aligne="top" width="25%"><a href="pag.Principal.html" > <img width="100%"  src="https://eusouclick.clickintercambios.com.br/wp-content/uploads/2019/02/cover_image-1500x500.jpg"></a></td> 
+   </tr>
+ </table> 
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Milias a mil</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="P.P.html">Home <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="D.html" >Destinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Pr.html">Promoções</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Co.html">Contatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Ca.html" >Cadastramento</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+<!--Aqui ficará o corpo do site-->
+
+
+
+
+<div class="alert alert-warning" role="alert">
+  Usamos sua localização para configurar os preços e aeroportos mais próximos de você!
+</div>
+
+<!-- Botão para acionar modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+  Veja o Aeroporto mais próximo de você!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">O mais próximo é:</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        RIOgaleão - Aeroporto Internacional Tom Jobim
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th scope="col">-</th>
+      <th scope="col">De onde, para onde</th>
+      <th scope="col">Preços</th>
+      <th scope="col">local</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Rio/São Paulo</td>
+      <td>120 R$</td>
+      <td>Aeroporto Galeão</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>São paulo/Brasilia</td>
+      <td>521 R$</td>
+      <td>Aeroporto de São Paulo/Congonhas </td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td> Brasilia/Amazonas</td>
+      <td> 430 R$</td>
+      <td> Aeroporto internacional de Brasilia</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td> Amazonas/Rio Grande do Sul</td>
+      <td> 800 R$</td>
+      <td> Aeroporto internacional Porto Salgado filho</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td> Rio Grande do Sul/ Paraná</td>
+      <td> 214 R$</td>
+      <td> Aeroporto municipal de Porto Mourão</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td> Paraná/Minas Gerais</td>
+      <td> 380 R$</td>
+      <td> Aeroporto de Belo horizonte</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td> Minas Gerais/Pernambuco</td>
+      <td> 540 R$</td>
+      <td> Aeroporto de Araripina</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td> Rio de janeiro/ Acre</td>
+      <td> 670 R$</td>
+      <td> Aeroporto internacional de Rio Branco</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td> Bahia/ Mato Grosso</td>
+      <td> 320R$</td>
+      <td> Aeroporto de Barra do Garças</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td> Rondonia/ Amapá</td>
+      <td> 450R$</td>
+      <td> Aeroporto Internacional de Macapá - Alberto Alcolumbre</td>
+    </tr>
+  </tbody>
+</table>
+
+<a class="btn btn-primary btn-lg" href="Ca.html" role="button">Escolha sua viagem e receba os documentos por email.</a>
+
+<div class="jumbotron">
+  <h1 class="display-4">Estamos a mil!</h1>
+  <p class="lead">Para comprar e escolher sua viagem você precisa de um cadastro</p>
+  <hr class="my-3">
+  <p>Já pensou em aproveitar o melhor do mundo? Conosco você pode! faça já o seu cadastro e garanta promoções incríveis só para você! Caso só esteja dando uma olhadinha, sem problemas, mas vamos deixar o link de cadastro logo abaixo, caso queira aproveitar da melhor compania aerea do Brasil.</p>
+  <a class="btn btn-primary btn-lg" href="Ca.html" role="button">Faça aqui seu cadastro</a>
+</div>
+
+<!--Aqui ficará o rodapé do site-->
+
+<center><font face="Arial" size="2"> &copy;Milias a mil </font></center>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

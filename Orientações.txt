@@ -1,0 +1,6 @@
+P.P = Página príncipal.
+P.E = Página de estilo. 
+D = Destinos.
+Pr = Promoções.
+Co = Contatos.
+Ca = Cadastro.
